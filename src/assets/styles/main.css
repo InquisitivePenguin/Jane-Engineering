@@ -1,7 +1,7 @@
 @tailwind base;
 
 body {
-  @apply bg-gray-900;
+  @apply bg-magenta;
 }
 
 a {
