@@ -1,7 +1,7 @@
 ---
 title: 'Creating Terra Ball for Metroidvania Month 16'
 description: In which me and a friend create a stupidly difficult platformer
-date: 2022-07-02T00:00:00Z
+date: 2022-07-01T00:00:00Z
 ---
 
 ![Cover Image for Terra Ball](/assets/images/posts/terra-ball-cover.png#article-centered "Title")
