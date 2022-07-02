@@ -1,8 +1,9 @@
 {
-  "site_name": "Starter",
-  "title": "Eleventy Starter Boilerplate",
-  "description": "Starter code for your 11ty blog Boilerplate",
-  "url": "https://example.com",
+  "site_name": "Jane Lewis",
+  "site_title": "Janes Space Station",
+  "title": "Jane's Space Station",
+  "description": "The personal website of Jane Lewis",
+  "url": "https://jane.engineering",
   "locale": "en",
-  "author": "Anonymous"
+  "author": "Jane Lewis"
 }

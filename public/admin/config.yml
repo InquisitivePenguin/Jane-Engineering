@@ -19,6 +19,16 @@ collections:
       - { name: "description", label: "Description" }
       - { name: "date", label: "Date", widget: "datetime" }
       - { name: "body", label: "Body", widget: "markdown" }
+  - name: "project"
+    label: "Project"
+    folder: "src/projects"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { name: "title", label: "Title"}
+      - { name: "subtitle", label: "Subtitle"}
+      - { name: "body", label: "Body", widget: "markdown"}
   - name: "config"
     label: "Configuration"
     editor:

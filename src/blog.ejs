@@ -4,9 +4,13 @@ pagination:
   size: 5
   alias: list
   reverse: true
-permalink: '<% if (pagination.pageNumber > 0) { %><%= `page${pagination.pageNumber + 1}/index.html` %><% } else { %>index.html<% } %>'
+permalink: '<% if (pagination.pageNumber > 0) { %><%= `page${pagination.pageNumber + 1}/blog.html` %><% } else { %>blog.html<% } %>'
 eleventyComputed:
-  title: '<% if (pagination.pageNumber > 0) { %><%= `Page ${pagination.pageNumber + 1} | ${site.title}` %><% } else { %><%= site.title %><% } %>'
+  title: '<% if (pagination.pageNumber > 0) { %><%= `Page ${pagination.pageNumber + 1} | Blog - ${site.title}` %><% } else { %><%= `Blog - ${site.title}` %><% } %>'
+layout: layouts/base.ejs
+eleventyNavigation:
+  key: Blog
+  order: 2
 ---
 
 <ul>
